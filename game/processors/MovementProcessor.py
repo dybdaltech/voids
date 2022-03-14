@@ -14,7 +14,6 @@ class MovementProcessor(esper.Processor):
 
     def process(self):
         for ent, (vel, rend) in self.world.get_components(Velocity, Drawable):
-
             rend.x += vel.x
             rend.y += vel.y
             rend.x = max(self.minx, rend.x)
