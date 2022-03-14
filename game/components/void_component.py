@@ -12,6 +12,7 @@ class VoidComponent:
     void_type: VoidType
     x: int
     y: int
+    ttl: int
     
     def distance_to_target(self, target):
         dx = self.x - target.x
