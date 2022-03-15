@@ -1,625 +1,1202 @@
 INFO:game_debug:[MAIN] Started logger
-DEBUG:game_debug:[INIT] Enemy: 0 | 1 | (255, 0, 0)
-DEBUG:game_debug:[INIT] Enemy: 1 | 2 | (255, 0, 0)
-DEBUG:game_debug:[INIT] Enemy: 2 | 3 | (255, 0, 0)
-DEBUG:game_debug:[INIT] Enemy: 3 | 4 | (255, 0, 0)
-DEBUG:game_debug:[INIT] Enemy: 4 | 5 | (255, 0, 0)
-DEBUG:game_debug:[INIT] Enemy: 5 | 6 | (255, 0, 0)
-DEBUG:game_debug:[INIT] Enemy: 6 | 7 | (255, 0, 0)
-DEBUG:game_debug:[INIT] Enemy: 7 | 8 | (255, 0, 0)
-DEBUG:game_debug:[INIT] Enemy: 8 | 9 | (255, 0, 0)
-DEBUG:game_debug:[INIT] Enemy: 9 | 10 | (255, 0, 0)
-DEBUG:game_debug:[INIT] Friend: 0 | 11 | (0, 255, 0)
-DEBUG:game_debug:[INIT] Friend: 1 | 12 | (0, 255, 0)
-DEBUG:game_debug:[INIT] Friend: 2 | 13 | (0, 255, 0)
-DEBUG:game_debug:[INIT] Friend: 3 | 14 | (0, 255, 0)
-DEBUG:game_debug:[INIT] Friend: 4 | 15 | (0, 255, 0)
-DEBUG:game_debug:[INIT] Friend: 5 | 16 | (0, 255, 0)
-DEBUG:game_debug:[INIT] Friend: 6 | 17 | (0, 255, 0)
-DEBUG:game_debug:[INIT] Friend: 7 | 18 | (0, 255, 0)
-DEBUG:game_debug:[INIT] Friend: 8 | 19 | (0, 255, 0)
-DEBUG:game_debug:[INIT] Friend: 9 | 20 | (0, 255, 0)
-DEBUG:game_debug:[INIT] After Processor - all hoiks: [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
-DEBUG:game_debug:[Render Processor] 1 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A54B0>
-DEBUG:game_debug:[Render Processor] 2 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A57E0>
-DEBUG:game_debug:[Render Processor] 3 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A6C20>
-DEBUG:game_debug:[Render Processor] 4 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC439C60>
-DEBUG:game_debug:[Render Processor] 5 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461510>
-DEBUG:game_debug:[Render Processor] 6 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC460D90>
-DEBUG:game_debug:[Render Processor] 7 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461480>
-DEBUG:game_debug:[Render Processor] 8 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461780>
-DEBUG:game_debug:[Render Processor] 9 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461390>
-DEBUG:game_debug:[Render Processor] 10 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461990>
-DEBUG:game_debug:[Render Processor] 11 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461B40>
-DEBUG:game_debug:[Render Processor] 12 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461CF0>
-DEBUG:game_debug:[Render Processor] 13 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461E10>
-DEBUG:game_debug:[Render Processor] 14 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461F90>
-DEBUG:game_debug:[Render Processor] 15 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462140>
-DEBUG:game_debug:[Render Processor] 16 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462290>
-DEBUG:game_debug:[Render Processor] 17 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4623B0>
-DEBUG:game_debug:[Render Processor] 18 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462590>
-DEBUG:game_debug:[Render Processor] 19 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462710>
-DEBUG:game_debug:[Render Processor] 20 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4629B0>
-DEBUG:game_debug:[Render Processor] 1 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A54B0>
-DEBUG:game_debug:[Render Processor] 2 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A57E0>
-DEBUG:game_debug:[Render Processor] 3 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A6C20>
-DEBUG:game_debug:[Render Processor] 4 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC439C60>
-DEBUG:game_debug:[Render Processor] 5 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461510>
-DEBUG:game_debug:[Render Processor] 6 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC460D90>
-DEBUG:game_debug:[Render Processor] 7 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461480>
-DEBUG:game_debug:[Render Processor] 8 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461780>
-DEBUG:game_debug:[Render Processor] 9 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461390>
-DEBUG:game_debug:[Render Processor] 10 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461990>
-DEBUG:game_debug:[Render Processor] 11 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461B40>
-DEBUG:game_debug:[Render Processor] 12 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461CF0>
-DEBUG:game_debug:[Render Processor] 13 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461E10>
-DEBUG:game_debug:[Render Processor] 14 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461F90>
-DEBUG:game_debug:[Render Processor] 15 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462140>
-DEBUG:game_debug:[Render Processor] 16 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462290>
-DEBUG:game_debug:[Render Processor] 17 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4623B0>
-DEBUG:game_debug:[Render Processor] 18 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462590>
-DEBUG:game_debug:[Render Processor] 19 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462710>
-DEBUG:game_debug:[Render Processor] 20 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4629B0>
-DEBUG:game_debug:[Render Processor] 1 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A54B0>
-DEBUG:game_debug:[Render Processor] 2 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A57E0>
-DEBUG:game_debug:[Render Processor] 3 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A6C20>
-DEBUG:game_debug:[Render Processor] 4 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC439C60>
-DEBUG:game_debug:[Render Processor] 5 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461510>
-DEBUG:game_debug:[Render Processor] 6 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC460D90>
-DEBUG:game_debug:[Render Processor] 7 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461480>
-DEBUG:game_debug:[Render Processor] 8 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461780>
-DEBUG:game_debug:[Render Processor] 9 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461390>
-DEBUG:game_debug:[Render Processor] 10 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461990>
-DEBUG:game_debug:[Render Processor] 11 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461B40>
-DEBUG:game_debug:[Render Processor] 12 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461CF0>
-DEBUG:game_debug:[Render Processor] 13 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461E10>
-DEBUG:game_debug:[Render Processor] 14 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461F90>
-DEBUG:game_debug:[Render Processor] 15 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462140>
-DEBUG:game_debug:[Render Processor] 16 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462290>
-DEBUG:game_debug:[Render Processor] 17 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4623B0>
-DEBUG:game_debug:[Render Processor] 18 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462590>
-DEBUG:game_debug:[Render Processor] 19 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462710>
-DEBUG:game_debug:[Render Processor] 20 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4629B0>
-DEBUG:game_debug:[Render Processor] 1 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A54B0>
-DEBUG:game_debug:[Render Processor] 2 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A57E0>
-DEBUG:game_debug:[Render Processor] 3 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A6C20>
-DEBUG:game_debug:[Render Processor] 4 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC439C60>
-DEBUG:game_debug:[Render Processor] 5 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461510>
-DEBUG:game_debug:[Render Processor] 6 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC460D90>
-DEBUG:game_debug:[Render Processor] 7 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461480>
-DEBUG:game_debug:[Render Processor] 8 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461780>
-DEBUG:game_debug:[Render Processor] 9 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461390>
-DEBUG:game_debug:[Render Processor] 10 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461990>
-DEBUG:game_debug:[Render Processor] 11 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461B40>
-DEBUG:game_debug:[Render Processor] 12 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461CF0>
-DEBUG:game_debug:[Render Processor] 13 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461E10>
-DEBUG:game_debug:[Render Processor] 14 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461F90>
-DEBUG:game_debug:[Render Processor] 15 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462140>
-DEBUG:game_debug:[Render Processor] 16 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462290>
-DEBUG:game_debug:[Render Processor] 17 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4623B0>
-DEBUG:game_debug:[Render Processor] 18 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462590>
-DEBUG:game_debug:[Render Processor] 19 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462710>
-DEBUG:game_debug:[Render Processor] 20 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4629B0>
-DEBUG:game_debug:[Render Processor] 1 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A54B0>
-DEBUG:game_debug:[Render Processor] 2 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A57E0>
-DEBUG:game_debug:[Render Processor] 3 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A6C20>
-DEBUG:game_debug:[Render Processor] 4 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC439C60>
-DEBUG:game_debug:[Render Processor] 5 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461510>
-DEBUG:game_debug:[Render Processor] 6 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC460D90>
-DEBUG:game_debug:[Render Processor] 7 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461480>
-DEBUG:game_debug:[Render Processor] 8 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461780>
-DEBUG:game_debug:[Render Processor] 9 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461390>
-DEBUG:game_debug:[Render Processor] 10 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461990>
-DEBUG:game_debug:[Render Processor] 11 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461B40>
-DEBUG:game_debug:[Render Processor] 12 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461CF0>
-DEBUG:game_debug:[Render Processor] 13 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461E10>
-DEBUG:game_debug:[Render Processor] 14 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461F90>
-DEBUG:game_debug:[Render Processor] 15 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462140>
-DEBUG:game_debug:[Render Processor] 16 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462290>
-DEBUG:game_debug:[Render Processor] 17 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4623B0>
-DEBUG:game_debug:[Render Processor] 18 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462590>
-DEBUG:game_debug:[Render Processor] 19 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462710>
-DEBUG:game_debug:[Render Processor] 20 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4629B0>
-DEBUG:game_debug:[Render Processor] 1 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A54B0>
-DEBUG:game_debug:[Render Processor] 2 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A57E0>
-DEBUG:game_debug:[Render Processor] 3 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A6C20>
-DEBUG:game_debug:[Render Processor] 4 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC439C60>
-DEBUG:game_debug:[Render Processor] 5 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461510>
-DEBUG:game_debug:[Render Processor] 6 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC460D90>
-DEBUG:game_debug:[Render Processor] 7 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461480>
-DEBUG:game_debug:[Render Processor] 8 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461780>
-DEBUG:game_debug:[Render Processor] 9 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461390>
-DEBUG:game_debug:[Render Processor] 10 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461990>
-DEBUG:game_debug:[Render Processor] 11 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461B40>
-DEBUG:game_debug:[Render Processor] 12 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461CF0>
-DEBUG:game_debug:[Render Processor] 13 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461E10>
-DEBUG:game_debug:[Render Processor] 14 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461F90>
-DEBUG:game_debug:[Render Processor] 15 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462140>
-DEBUG:game_debug:[Render Processor] 16 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462290>
-DEBUG:game_debug:[Render Processor] 17 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4623B0>
-DEBUG:game_debug:[Render Processor] 18 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462590>
-DEBUG:game_debug:[Render Processor] 19 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462710>
-DEBUG:game_debug:[Render Processor] 20 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4629B0>
-DEBUG:game_debug:[Render Processor] 1 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A54B0>
-DEBUG:game_debug:[Render Processor] 2 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A57E0>
-DEBUG:game_debug:[Render Processor] 3 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A6C20>
-DEBUG:game_debug:[Render Processor] 4 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC439C60>
-DEBUG:game_debug:[Render Processor] 5 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461510>
-DEBUG:game_debug:[Render Processor] 6 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC460D90>
-DEBUG:game_debug:[Render Processor] 7 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461480>
-DEBUG:game_debug:[Render Processor] 8 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461780>
-DEBUG:game_debug:[Render Processor] 9 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461390>
-DEBUG:game_debug:[Render Processor] 10 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461990>
-DEBUG:game_debug:[Render Processor] 11 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461B40>
-DEBUG:game_debug:[Render Processor] 12 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461CF0>
-DEBUG:game_debug:[Render Processor] 13 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461E10>
-DEBUG:game_debug:[Render Processor] 14 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461F90>
-DEBUG:game_debug:[Render Processor] 15 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462140>
-DEBUG:game_debug:[Render Processor] 16 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462290>
-DEBUG:game_debug:[Render Processor] 17 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4623B0>
-DEBUG:game_debug:[Render Processor] 18 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462590>
-DEBUG:game_debug:[Render Processor] 19 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462710>
-DEBUG:game_debug:[Render Processor] 20 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4629B0>
-DEBUG:game_debug:[Render Processor] 1 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A54B0>
-DEBUG:game_debug:[Render Processor] 2 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A57E0>
-DEBUG:game_debug:[Render Processor] 3 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A6C20>
-DEBUG:game_debug:[Render Processor] 4 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC439C60>
-DEBUG:game_debug:[Render Processor] 5 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461510>
-DEBUG:game_debug:[Render Processor] 6 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC460D90>
-DEBUG:game_debug:[Render Processor] 7 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461480>
-DEBUG:game_debug:[Render Processor] 8 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461780>
-DEBUG:game_debug:[Render Processor] 9 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461390>
-DEBUG:game_debug:[Render Processor] 10 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461990>
-DEBUG:game_debug:[Render Processor] 11 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461B40>
-DEBUG:game_debug:[Render Processor] 12 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461CF0>
-DEBUG:game_debug:[Render Processor] 13 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461E10>
-DEBUG:game_debug:[Render Processor] 14 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461F90>
-DEBUG:game_debug:[Render Processor] 15 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462140>
-DEBUG:game_debug:[Render Processor] 16 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462290>
-DEBUG:game_debug:[Render Processor] 17 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4623B0>
-DEBUG:game_debug:[Render Processor] 18 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462590>
-DEBUG:game_debug:[Render Processor] 19 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462710>
-DEBUG:game_debug:[Render Processor] 20 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4629B0>
-DEBUG:game_debug:[Render Processor] 1 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A54B0>
-DEBUG:game_debug:[Render Processor] 2 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A57E0>
-DEBUG:game_debug:[Render Processor] 3 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A6C20>
-DEBUG:game_debug:[Render Processor] 4 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC439C60>
-DEBUG:game_debug:[Render Processor] 5 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461510>
-DEBUG:game_debug:[Render Processor] 6 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC460D90>
-DEBUG:game_debug:[Render Processor] 7 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461480>
-DEBUG:game_debug:[Render Processor] 8 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461780>
-DEBUG:game_debug:[Render Processor] 9 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461390>
-DEBUG:game_debug:[Render Processor] 10 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461990>
-DEBUG:game_debug:[Render Processor] 11 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461B40>
-DEBUG:game_debug:[Render Processor] 12 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461CF0>
-DEBUG:game_debug:[Render Processor] 13 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461E10>
-DEBUG:game_debug:[Render Processor] 14 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461F90>
-DEBUG:game_debug:[Render Processor] 15 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462140>
-DEBUG:game_debug:[Render Processor] 16 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462290>
-DEBUG:game_debug:[Render Processor] 17 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4623B0>
-DEBUG:game_debug:[Render Processor] 18 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462590>
-DEBUG:game_debug:[Render Processor] 19 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462710>
-DEBUG:game_debug:[Render Processor] 20 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4629B0>
-DEBUG:game_debug:[Render Processor] 1 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A54B0>
-DEBUG:game_debug:[Render Processor] 2 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A57E0>
-DEBUG:game_debug:[Render Processor] 3 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A6C20>
-DEBUG:game_debug:[Render Processor] 4 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC439C60>
-DEBUG:game_debug:[Render Processor] 5 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461510>
-DEBUG:game_debug:[Render Processor] 6 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC460D90>
-DEBUG:game_debug:[Render Processor] 7 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461480>
-DEBUG:game_debug:[Render Processor] 8 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461780>
-DEBUG:game_debug:[Render Processor] 9 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461390>
-DEBUG:game_debug:[Render Processor] 10 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461990>
-DEBUG:game_debug:[Render Processor] 11 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461B40>
-DEBUG:game_debug:[Render Processor] 12 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461CF0>
-DEBUG:game_debug:[Render Processor] 13 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461E10>
-DEBUG:game_debug:[Render Processor] 14 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461F90>
-DEBUG:game_debug:[Render Processor] 15 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462140>
-DEBUG:game_debug:[Render Processor] 16 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462290>
-DEBUG:game_debug:[Render Processor] 17 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4623B0>
-DEBUG:game_debug:[Render Processor] 18 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462590>
-DEBUG:game_debug:[Render Processor] 19 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462710>
-DEBUG:game_debug:[Render Processor] 20 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4629B0>
-DEBUG:game_debug:[Render Processor] 1 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A54B0>
-DEBUG:game_debug:[Render Processor] 2 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A57E0>
-DEBUG:game_debug:[Render Processor] 3 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A6C20>
-DEBUG:game_debug:[Render Processor] 4 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC439C60>
-DEBUG:game_debug:[Render Processor] 5 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461510>
-DEBUG:game_debug:[Render Processor] 6 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC460D90>
-DEBUG:game_debug:[Render Processor] 7 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461480>
-DEBUG:game_debug:[Render Processor] 8 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461780>
-DEBUG:game_debug:[Render Processor] 9 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461390>
-DEBUG:game_debug:[Render Processor] 10 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461990>
-DEBUG:game_debug:[Render Processor] 11 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461B40>
-DEBUG:game_debug:[Render Processor] 12 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461CF0>
-DEBUG:game_debug:[Render Processor] 13 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461E10>
-DEBUG:game_debug:[Render Processor] 14 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461F90>
-DEBUG:game_debug:[Render Processor] 15 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462140>
-DEBUG:game_debug:[Render Processor] 16 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462290>
-DEBUG:game_debug:[Render Processor] 17 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4623B0>
-DEBUG:game_debug:[Render Processor] 18 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462590>
-DEBUG:game_debug:[Render Processor] 19 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462710>
-DEBUG:game_debug:[Render Processor] 20 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4629B0>
-DEBUG:game_debug:[Render Processor] 1 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A54B0>
-DEBUG:game_debug:[Render Processor] 2 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A57E0>
-DEBUG:game_debug:[Render Processor] 3 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A6C20>
-DEBUG:game_debug:[Render Processor] 4 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC439C60>
-DEBUG:game_debug:[Render Processor] 5 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461510>
-DEBUG:game_debug:[Render Processor] 6 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC460D90>
-DEBUG:game_debug:[Render Processor] 7 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461480>
-DEBUG:game_debug:[Render Processor] 8 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461780>
-DEBUG:game_debug:[Render Processor] 9 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461390>
-DEBUG:game_debug:[Render Processor] 10 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461990>
-DEBUG:game_debug:[Render Processor] 11 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461B40>
-DEBUG:game_debug:[Render Processor] 12 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461CF0>
-DEBUG:game_debug:[Render Processor] 13 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461E10>
-DEBUG:game_debug:[Render Processor] 14 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461F90>
-DEBUG:game_debug:[Render Processor] 15 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462140>
-DEBUG:game_debug:[Render Processor] 16 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462290>
-DEBUG:game_debug:[Render Processor] 17 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4623B0>
-DEBUG:game_debug:[Render Processor] 18 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462590>
-DEBUG:game_debug:[Render Processor] 19 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462710>
-DEBUG:game_debug:[Render Processor] 20 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4629B0>
-DEBUG:game_debug:[Render Processor] 1 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A54B0>
-DEBUG:game_debug:[Render Processor] 2 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A57E0>
-DEBUG:game_debug:[Render Processor] 3 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A6C20>
-DEBUG:game_debug:[Render Processor] 4 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC439C60>
-DEBUG:game_debug:[Render Processor] 5 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461510>
-DEBUG:game_debug:[Render Processor] 6 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC460D90>
-DEBUG:game_debug:[Render Processor] 7 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461480>
-DEBUG:game_debug:[Render Processor] 8 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461780>
-DEBUG:game_debug:[Render Processor] 9 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461390>
-DEBUG:game_debug:[Render Processor] 10 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461990>
-DEBUG:game_debug:[Render Processor] 11 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461B40>
-DEBUG:game_debug:[Render Processor] 12 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461CF0>
-DEBUG:game_debug:[Render Processor] 13 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461E10>
-DEBUG:game_debug:[Render Processor] 14 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461F90>
-DEBUG:game_debug:[Render Processor] 15 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462140>
-DEBUG:game_debug:[Render Processor] 16 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462290>
-DEBUG:game_debug:[Render Processor] 17 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4623B0>
-DEBUG:game_debug:[Render Processor] 18 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462590>
-DEBUG:game_debug:[Render Processor] 19 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462710>
-DEBUG:game_debug:[Render Processor] 20 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4629B0>
-DEBUG:game_debug:[Render Processor] 1 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A54B0>
-DEBUG:game_debug:[Render Processor] 2 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A57E0>
-DEBUG:game_debug:[Render Processor] 3 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A6C20>
-DEBUG:game_debug:[Render Processor] 4 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC439C60>
-DEBUG:game_debug:[Render Processor] 5 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461510>
-DEBUG:game_debug:[Render Processor] 6 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC460D90>
-DEBUG:game_debug:[Render Processor] 7 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461480>
-DEBUG:game_debug:[Render Processor] 8 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461780>
-DEBUG:game_debug:[Render Processor] 9 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461390>
-DEBUG:game_debug:[Render Processor] 10 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461990>
-DEBUG:game_debug:[Render Processor] 11 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461B40>
-DEBUG:game_debug:[Render Processor] 12 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461CF0>
-DEBUG:game_debug:[Render Processor] 13 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461E10>
-DEBUG:game_debug:[Render Processor] 14 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461F90>
-DEBUG:game_debug:[Render Processor] 15 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462140>
-DEBUG:game_debug:[Render Processor] 16 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462290>
-DEBUG:game_debug:[Render Processor] 17 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4623B0>
-DEBUG:game_debug:[Render Processor] 18 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462590>
-DEBUG:game_debug:[Render Processor] 19 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462710>
-DEBUG:game_debug:[Render Processor] 20 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4629B0>
-DEBUG:game_debug:[Render Processor] 1 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A54B0>
-DEBUG:game_debug:[Render Processor] 2 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A57E0>
-DEBUG:game_debug:[Render Processor] 3 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A6C20>
-DEBUG:game_debug:[Render Processor] 4 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC439C60>
-DEBUG:game_debug:[Render Processor] 5 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461510>
-DEBUG:game_debug:[Render Processor] 6 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC460D90>
-DEBUG:game_debug:[Render Processor] 7 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461480>
-DEBUG:game_debug:[Render Processor] 8 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461780>
-DEBUG:game_debug:[Render Processor] 9 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461390>
-DEBUG:game_debug:[Render Processor] 10 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461990>
-DEBUG:game_debug:[Render Processor] 11 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461B40>
-DEBUG:game_debug:[Render Processor] 12 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461CF0>
-DEBUG:game_debug:[Render Processor] 13 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461E10>
-DEBUG:game_debug:[Render Processor] 14 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461F90>
-DEBUG:game_debug:[Render Processor] 15 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462140>
-DEBUG:game_debug:[Render Processor] 16 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462290>
-DEBUG:game_debug:[Render Processor] 17 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4623B0>
-DEBUG:game_debug:[Render Processor] 18 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462590>
-DEBUG:game_debug:[Render Processor] 19 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462710>
-DEBUG:game_debug:[Render Processor] 20 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4629B0>
-DEBUG:game_debug:[Render Processor] 1 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A54B0>
-DEBUG:game_debug:[Render Processor] 2 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A57E0>
-DEBUG:game_debug:[Render Processor] 3 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A6C20>
-DEBUG:game_debug:[Render Processor] 4 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC439C60>
-DEBUG:game_debug:[Render Processor] 5 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461510>
-DEBUG:game_debug:[Render Processor] 6 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC460D90>
-DEBUG:game_debug:[Render Processor] 7 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461480>
-DEBUG:game_debug:[Render Processor] 8 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461780>
-DEBUG:game_debug:[Render Processor] 9 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461390>
-DEBUG:game_debug:[Render Processor] 10 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461990>
-DEBUG:game_debug:[Render Processor] 11 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461B40>
-DEBUG:game_debug:[Render Processor] 12 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461CF0>
-DEBUG:game_debug:[Render Processor] 13 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461E10>
-DEBUG:game_debug:[Render Processor] 14 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461F90>
-DEBUG:game_debug:[Render Processor] 15 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462140>
-DEBUG:game_debug:[Render Processor] 16 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462290>
-DEBUG:game_debug:[Render Processor] 17 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4623B0>
-DEBUG:game_debug:[Render Processor] 18 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462590>
-DEBUG:game_debug:[Render Processor] 19 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462710>
-DEBUG:game_debug:[Render Processor] 20 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4629B0>
-DEBUG:game_debug:[Render Processor] 1 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A54B0>
-DEBUG:game_debug:[Render Processor] 2 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A57E0>
-DEBUG:game_debug:[Render Processor] 3 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A6C20>
-DEBUG:game_debug:[Render Processor] 4 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC439C60>
-DEBUG:game_debug:[Render Processor] 5 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461510>
-DEBUG:game_debug:[Render Processor] 6 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC460D90>
-DEBUG:game_debug:[Render Processor] 7 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461480>
-DEBUG:game_debug:[Render Processor] 8 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461780>
-DEBUG:game_debug:[Render Processor] 9 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461390>
-DEBUG:game_debug:[Render Processor] 10 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461990>
-DEBUG:game_debug:[Render Processor] 11 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461B40>
-DEBUG:game_debug:[Render Processor] 12 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461CF0>
-DEBUG:game_debug:[Render Processor] 13 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461E10>
-DEBUG:game_debug:[Render Processor] 14 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461F90>
-DEBUG:game_debug:[Render Processor] 15 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462140>
-DEBUG:game_debug:[Render Processor] 16 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462290>
-DEBUG:game_debug:[Render Processor] 17 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4623B0>
-DEBUG:game_debug:[Render Processor] 18 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462590>
-DEBUG:game_debug:[Render Processor] 19 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462710>
-DEBUG:game_debug:[Render Processor] 20 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4629B0>
-DEBUG:game_debug:[Render Processor] 1 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A54B0>
-DEBUG:game_debug:[Render Processor] 2 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A57E0>
-DEBUG:game_debug:[Render Processor] 3 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A6C20>
-DEBUG:game_debug:[Render Processor] 4 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC439C60>
-DEBUG:game_debug:[Render Processor] 5 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461510>
-DEBUG:game_debug:[Render Processor] 6 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC460D90>
-DEBUG:game_debug:[Render Processor] 7 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461480>
-DEBUG:game_debug:[Render Processor] 8 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461780>
-DEBUG:game_debug:[Render Processor] 9 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461390>
-DEBUG:game_debug:[Render Processor] 10 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461990>
-DEBUG:game_debug:[Render Processor] 11 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461B40>
-DEBUG:game_debug:[Render Processor] 12 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461CF0>
-DEBUG:game_debug:[Render Processor] 13 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461E10>
-DEBUG:game_debug:[Render Processor] 14 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461F90>
-DEBUG:game_debug:[Render Processor] 15 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462140>
-DEBUG:game_debug:[Render Processor] 16 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462290>
-DEBUG:game_debug:[Render Processor] 17 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4623B0>
-DEBUG:game_debug:[Render Processor] 18 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462590>
-DEBUG:game_debug:[Render Processor] 19 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462710>
-DEBUG:game_debug:[Render Processor] 20 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4629B0>
-DEBUG:game_debug:[Render Processor] 1 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A54B0>
-DEBUG:game_debug:[Render Processor] 2 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A57E0>
-DEBUG:game_debug:[Render Processor] 3 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A6C20>
-DEBUG:game_debug:[Render Processor] 4 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC439C60>
-DEBUG:game_debug:[Render Processor] 5 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461510>
-DEBUG:game_debug:[Render Processor] 6 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC460D90>
-DEBUG:game_debug:[Render Processor] 7 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461480>
-DEBUG:game_debug:[Render Processor] 8 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461780>
-DEBUG:game_debug:[Render Processor] 9 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461390>
-DEBUG:game_debug:[Render Processor] 10 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461990>
-DEBUG:game_debug:[Render Processor] 11 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461B40>
-DEBUG:game_debug:[Render Processor] 12 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461CF0>
-DEBUG:game_debug:[Render Processor] 13 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461E10>
-DEBUG:game_debug:[Render Processor] 14 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461F90>
-DEBUG:game_debug:[Render Processor] 15 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462140>
-DEBUG:game_debug:[Render Processor] 16 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462290>
-DEBUG:game_debug:[Render Processor] 17 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4623B0>
-DEBUG:game_debug:[Render Processor] 18 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462590>
-DEBUG:game_debug:[Render Processor] 19 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462710>
-DEBUG:game_debug:[Render Processor] 20 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4629B0>
-DEBUG:game_debug:[Render Processor] 1 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A54B0>
-DEBUG:game_debug:[Render Processor] 2 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A57E0>
-DEBUG:game_debug:[Render Processor] 3 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A6C20>
-DEBUG:game_debug:[Render Processor] 4 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC439C60>
-DEBUG:game_debug:[Render Processor] 5 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461510>
-DEBUG:game_debug:[Render Processor] 6 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC460D90>
-DEBUG:game_debug:[Render Processor] 7 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461480>
-DEBUG:game_debug:[Render Processor] 8 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461780>
-DEBUG:game_debug:[Render Processor] 9 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461390>
-DEBUG:game_debug:[Render Processor] 10 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461990>
-DEBUG:game_debug:[Render Processor] 11 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461B40>
-DEBUG:game_debug:[Render Processor] 12 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461CF0>
-DEBUG:game_debug:[Render Processor] 13 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461E10>
-DEBUG:game_debug:[Render Processor] 14 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461F90>
-DEBUG:game_debug:[Render Processor] 15 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462140>
-DEBUG:game_debug:[Render Processor] 16 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462290>
-DEBUG:game_debug:[Render Processor] 17 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4623B0>
-DEBUG:game_debug:[Render Processor] 18 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462590>
-DEBUG:game_debug:[Render Processor] 19 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462710>
-DEBUG:game_debug:[Render Processor] 20 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4629B0>
-DEBUG:game_debug:[Render Processor] 1 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A54B0>
-DEBUG:game_debug:[Render Processor] 2 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A57E0>
-DEBUG:game_debug:[Render Processor] 3 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A6C20>
-DEBUG:game_debug:[Render Processor] 4 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC439C60>
-DEBUG:game_debug:[Render Processor] 5 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461510>
-DEBUG:game_debug:[Render Processor] 6 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC460D90>
-DEBUG:game_debug:[Render Processor] 7 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461480>
-DEBUG:game_debug:[Render Processor] 8 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461780>
-DEBUG:game_debug:[Render Processor] 9 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461390>
-DEBUG:game_debug:[Render Processor] 10 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461990>
-DEBUG:game_debug:[Render Processor] 11 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461B40>
-DEBUG:game_debug:[Render Processor] 12 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461CF0>
-DEBUG:game_debug:[Render Processor] 13 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461E10>
-DEBUG:game_debug:[Render Processor] 14 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461F90>
-DEBUG:game_debug:[Render Processor] 15 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462140>
-DEBUG:game_debug:[Render Processor] 16 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462290>
-DEBUG:game_debug:[Render Processor] 17 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4623B0>
-DEBUG:game_debug:[Render Processor] 18 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462590>
-DEBUG:game_debug:[Render Processor] 19 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462710>
-DEBUG:game_debug:[Render Processor] 20 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4629B0>
-DEBUG:game_debug:[Render Processor] 1 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A54B0>
-DEBUG:game_debug:[Render Processor] 2 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A57E0>
-DEBUG:game_debug:[Render Processor] 3 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A6C20>
-DEBUG:game_debug:[Render Processor] 4 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC439C60>
-DEBUG:game_debug:[Render Processor] 5 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461510>
-DEBUG:game_debug:[Render Processor] 6 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC460D90>
-DEBUG:game_debug:[Render Processor] 7 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461480>
-DEBUG:game_debug:[Render Processor] 8 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461780>
-DEBUG:game_debug:[Render Processor] 9 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461390>
-DEBUG:game_debug:[Render Processor] 10 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461990>
-DEBUG:game_debug:[Render Processor] 11 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461B40>
-DEBUG:game_debug:[Render Processor] 12 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461CF0>
-DEBUG:game_debug:[Render Processor] 13 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461E10>
-DEBUG:game_debug:[Render Processor] 14 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461F90>
-DEBUG:game_debug:[Render Processor] 15 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462140>
-DEBUG:game_debug:[Render Processor] 16 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462290>
-DEBUG:game_debug:[Render Processor] 17 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4623B0>
-DEBUG:game_debug:[Render Processor] 18 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462590>
-DEBUG:game_debug:[Render Processor] 19 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462710>
-DEBUG:game_debug:[Render Processor] 20 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4629B0>
-DEBUG:game_debug:[Render Processor] 1 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A54B0>
-DEBUG:game_debug:[Render Processor] 2 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A57E0>
-DEBUG:game_debug:[Render Processor] 3 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A6C20>
-DEBUG:game_debug:[Render Processor] 4 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC439C60>
-DEBUG:game_debug:[Render Processor] 5 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461510>
-DEBUG:game_debug:[Render Processor] 6 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC460D90>
-DEBUG:game_debug:[Render Processor] 7 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461480>
-DEBUG:game_debug:[Render Processor] 8 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461780>
-DEBUG:game_debug:[Render Processor] 9 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461390>
-DEBUG:game_debug:[Render Processor] 10 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461990>
-DEBUG:game_debug:[Render Processor] 11 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461B40>
-DEBUG:game_debug:[Render Processor] 12 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461CF0>
-DEBUG:game_debug:[Render Processor] 13 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461E10>
-DEBUG:game_debug:[Render Processor] 14 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461F90>
-DEBUG:game_debug:[Render Processor] 15 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462140>
-DEBUG:game_debug:[Render Processor] 16 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462290>
-DEBUG:game_debug:[Render Processor] 17 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4623B0>
-DEBUG:game_debug:[Render Processor] 18 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462590>
-DEBUG:game_debug:[Render Processor] 19 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462710>
-DEBUG:game_debug:[Render Processor] 20 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4629B0>
-DEBUG:game_debug:[Render Processor] 1 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A54B0>
-DEBUG:game_debug:[Render Processor] 2 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A57E0>
-DEBUG:game_debug:[Render Processor] 3 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A6C20>
-DEBUG:game_debug:[Render Processor] 4 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC439C60>
-DEBUG:game_debug:[Render Processor] 5 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461510>
-DEBUG:game_debug:[Render Processor] 6 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC460D90>
-DEBUG:game_debug:[Render Processor] 7 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461480>
-DEBUG:game_debug:[Render Processor] 8 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461780>
-DEBUG:game_debug:[Render Processor] 9 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461390>
-DEBUG:game_debug:[Render Processor] 10 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461990>
-DEBUG:game_debug:[Render Processor] 11 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461B40>
-DEBUG:game_debug:[Render Processor] 12 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461CF0>
-DEBUG:game_debug:[Render Processor] 13 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461E10>
-DEBUG:game_debug:[Render Processor] 14 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461F90>
-DEBUG:game_debug:[Render Processor] 15 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462140>
-DEBUG:game_debug:[Render Processor] 16 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462290>
-DEBUG:game_debug:[Render Processor] 17 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4623B0>
-DEBUG:game_debug:[Render Processor] 18 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462590>
-DEBUG:game_debug:[Render Processor] 19 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462710>
-DEBUG:game_debug:[Render Processor] 20 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4629B0>
-DEBUG:game_debug:[Render Processor] 1 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A54B0>
-DEBUG:game_debug:[Render Processor] 2 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A57E0>
-DEBUG:game_debug:[Render Processor] 3 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A6C20>
-DEBUG:game_debug:[Render Processor] 4 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC439C60>
-DEBUG:game_debug:[Render Processor] 5 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461510>
-DEBUG:game_debug:[Render Processor] 6 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC460D90>
-DEBUG:game_debug:[Render Processor] 7 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461480>
-DEBUG:game_debug:[Render Processor] 8 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461780>
-DEBUG:game_debug:[Render Processor] 9 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461390>
-DEBUG:game_debug:[Render Processor] 10 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461990>
-DEBUG:game_debug:[Render Processor] 11 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461B40>
-DEBUG:game_debug:[Render Processor] 12 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461CF0>
-DEBUG:game_debug:[Render Processor] 13 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461E10>
-DEBUG:game_debug:[Render Processor] 14 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461F90>
-DEBUG:game_debug:[Render Processor] 15 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462140>
-DEBUG:game_debug:[Render Processor] 16 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462290>
-DEBUG:game_debug:[Render Processor] 17 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4623B0>
-DEBUG:game_debug:[Render Processor] 18 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462590>
-DEBUG:game_debug:[Render Processor] 19 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462710>
-DEBUG:game_debug:[Render Processor] 20 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4629B0>
-DEBUG:game_debug:[Render Processor] 1 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A54B0>
-DEBUG:game_debug:[Render Processor] 2 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A57E0>
-DEBUG:game_debug:[Render Processor] 3 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A6C20>
-DEBUG:game_debug:[Render Processor] 4 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC439C60>
-DEBUG:game_debug:[Render Processor] 5 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461510>
-DEBUG:game_debug:[Render Processor] 6 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC460D90>
-DEBUG:game_debug:[Render Processor] 7 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461480>
-DEBUG:game_debug:[Render Processor] 8 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461780>
-DEBUG:game_debug:[Render Processor] 9 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461390>
-DEBUG:game_debug:[Render Processor] 10 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461990>
-DEBUG:game_debug:[Render Processor] 11 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461B40>
-DEBUG:game_debug:[Render Processor] 12 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461CF0>
-DEBUG:game_debug:[Render Processor] 13 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461E10>
-DEBUG:game_debug:[Render Processor] 14 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461F90>
-DEBUG:game_debug:[Render Processor] 15 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462140>
-DEBUG:game_debug:[Render Processor] 16 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462290>
-DEBUG:game_debug:[Render Processor] 17 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4623B0>
-DEBUG:game_debug:[Render Processor] 18 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462590>
-DEBUG:game_debug:[Render Processor] 19 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462710>
-DEBUG:game_debug:[Render Processor] 20 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4629B0>
-DEBUG:game_debug:[Render Processor] 1 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A54B0>
-DEBUG:game_debug:[Render Processor] 2 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A57E0>
-DEBUG:game_debug:[Render Processor] 3 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A6C20>
-DEBUG:game_debug:[Render Processor] 4 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC439C60>
-DEBUG:game_debug:[Render Processor] 5 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461510>
-DEBUG:game_debug:[Render Processor] 6 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC460D90>
-DEBUG:game_debug:[Render Processor] 7 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461480>
-DEBUG:game_debug:[Render Processor] 8 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461780>
-DEBUG:game_debug:[Render Processor] 9 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461390>
-DEBUG:game_debug:[Render Processor] 10 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461990>
-DEBUG:game_debug:[Render Processor] 11 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461B40>
-DEBUG:game_debug:[Render Processor] 12 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461CF0>
-DEBUG:game_debug:[Render Processor] 13 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461E10>
-DEBUG:game_debug:[Render Processor] 14 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461F90>
-DEBUG:game_debug:[Render Processor] 15 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462140>
-DEBUG:game_debug:[Render Processor] 16 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462290>
-DEBUG:game_debug:[Render Processor] 17 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4623B0>
-DEBUG:game_debug:[Render Processor] 18 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462590>
-DEBUG:game_debug:[Render Processor] 19 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462710>
-DEBUG:game_debug:[Render Processor] 20 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4629B0>
-DEBUG:game_debug:[Render Processor] 1 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A54B0>
-DEBUG:game_debug:[Render Processor] 2 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A57E0>
-DEBUG:game_debug:[Render Processor] 3 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A6C20>
-DEBUG:game_debug:[Render Processor] 4 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC439C60>
-DEBUG:game_debug:[Render Processor] 5 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461510>
-DEBUG:game_debug:[Render Processor] 6 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC460D90>
-DEBUG:game_debug:[Render Processor] 7 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461480>
-DEBUG:game_debug:[Render Processor] 8 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461780>
-DEBUG:game_debug:[Render Processor] 9 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461390>
-DEBUG:game_debug:[Render Processor] 10 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461990>
-DEBUG:game_debug:[Render Processor] 11 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461B40>
-DEBUG:game_debug:[Render Processor] 12 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461CF0>
-DEBUG:game_debug:[Render Processor] 13 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461E10>
-DEBUG:game_debug:[Render Processor] 14 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461F90>
-DEBUG:game_debug:[Render Processor] 15 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462140>
-DEBUG:game_debug:[Render Processor] 16 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462290>
-DEBUG:game_debug:[Render Processor] 17 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4623B0>
-DEBUG:game_debug:[Render Processor] 18 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462590>
-DEBUG:game_debug:[Render Processor] 19 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462710>
-DEBUG:game_debug:[Render Processor] 20 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4629B0>
-DEBUG:game_debug:[Render Processor] 1 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A54B0>
-DEBUG:game_debug:[Render Processor] 2 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A57E0>
-DEBUG:game_debug:[Render Processor] 3 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A6C20>
-DEBUG:game_debug:[Render Processor] 4 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC439C60>
-DEBUG:game_debug:[Render Processor] 5 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461510>
-DEBUG:game_debug:[Render Processor] 6 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC460D90>
-DEBUG:game_debug:[Render Processor] 7 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461480>
-DEBUG:game_debug:[Render Processor] 8 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461780>
-DEBUG:game_debug:[Render Processor] 9 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461390>
-DEBUG:game_debug:[Render Processor] 10 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461990>
-DEBUG:game_debug:[Render Processor] 11 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461B40>
-DEBUG:game_debug:[Render Processor] 12 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461CF0>
-DEBUG:game_debug:[Render Processor] 13 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461E10>
-DEBUG:game_debug:[Render Processor] 14 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461F90>
-DEBUG:game_debug:[Render Processor] 15 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462140>
-DEBUG:game_debug:[Render Processor] 16 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462290>
-DEBUG:game_debug:[Render Processor] 17 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4623B0>
-DEBUG:game_debug:[Render Processor] 18 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462590>
-DEBUG:game_debug:[Render Processor] 19 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462710>
-DEBUG:game_debug:[Render Processor] 20 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4629B0>
-DEBUG:game_debug:[Render Processor] 1 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A54B0>
-DEBUG:game_debug:[Render Processor] 2 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A57E0>
-DEBUG:game_debug:[Render Processor] 3 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A6C20>
-DEBUG:game_debug:[Render Processor] 4 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC439C60>
-DEBUG:game_debug:[Render Processor] 5 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461510>
-DEBUG:game_debug:[Render Processor] 6 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC460D90>
-DEBUG:game_debug:[Render Processor] 7 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461480>
-DEBUG:game_debug:[Render Processor] 8 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461780>
-DEBUG:game_debug:[Render Processor] 9 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461390>
-DEBUG:game_debug:[Render Processor] 10 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461990>
-DEBUG:game_debug:[Render Processor] 11 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461B40>
-DEBUG:game_debug:[Render Processor] 12 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461CF0>
-DEBUG:game_debug:[Render Processor] 13 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461E10>
-DEBUG:game_debug:[Render Processor] 14 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC461F90>
-DEBUG:game_debug:[Render Processor] 15 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462140>
-DEBUG:game_debug:[Render Processor] 16 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462290>
-DEBUG:game_debug:[Render Processor] 17 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4623B0>
-DEBUG:game_debug:[Render Processor] 18 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462590>
-DEBUG:game_debug:[Render Processor] 19 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC462710>
-DEBUG:game_debug:[Render Processor] 20 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7AC4629B0>
-DEBUG:game_debug:[Render Processor] 1 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A54B0>
-DEBUG:game_debug:[Render Processor] 2 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A57E0>
-DEBUG:game_debug:[Render Processor] 3 | (0, 255, 0) | <game.components.drawable_component.Drawable object at 0x000002B7A86A6C20>
+DEBUG:game_debug:[INIT] Enemy: 1 | 0 | Forms.SQUARE
+DEBUG:game_debug:[INIT] Friend: 2 | 0 | Forms.RECTANGLE
+DEBUG:game_debug:[INIT] Enemy: 3 | 1 | Forms.SQUARE
+DEBUG:game_debug:[INIT] Friend: 4 | 1 | Forms.RECTANGLE
+DEBUG:game_debug:[INIT] Enemy: 5 | 2 | Forms.SQUARE
+DEBUG:game_debug:[INIT] Friend: 6 | 2 | Forms.RECTANGLE
+DEBUG:game_debug:[INIT] Enemy: 7 | 3 | Forms.SQUARE
+DEBUG:game_debug:[INIT] Friend: 8 | 3 | Forms.RECTANGLE
+DEBUG:game_debug:[INIT] Enemy: 9 | 4 | Forms.SQUARE
+DEBUG:game_debug:[INIT] Friend: 10 | 4 | Forms.RECTANGLE
+DEBUG:game_debug:[INIT] Enemy: 11 | 5 | Forms.SQUARE
+DEBUG:game_debug:[INIT] Friend: 12 | 5 | Forms.RECTANGLE
+DEBUG:game_debug:[INIT] Enemy: 13 | 6 | Forms.SQUARE
+DEBUG:game_debug:[INIT] Friend: 14 | 6 | Forms.RECTANGLE
+DEBUG:game_debug:[INIT] Enemy: 15 | 7 | Forms.SQUARE
+DEBUG:game_debug:[INIT] Friend: 16 | 7 | Forms.RECTANGLE
+DEBUG:game_debug:[INIT] Enemy: 17 | 8 | Forms.SQUARE
+DEBUG:game_debug:[INIT] Friend: 18 | 8 | Forms.RECTANGLE
+DEBUG:game_debug:[INIT] Enemy: 19 | 9 | Forms.SQUARE
+DEBUG:game_debug:[INIT] Friend: 20 | 9 | Forms.RECTANGLE
+DEBUG:game_debug:[INIT] After Processor - all hoiks: [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+DEBUG:game_debug:[Voidling Processor] 1 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 2 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 3 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 4 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 5 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 6 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 7 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 8 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 9 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 10 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 11 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 12 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 13 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 14 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 15 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 16 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 17 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 18 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 19 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 20 | VoidType.HOIK
+DEBUG:game_debug:[Render Processor] 1 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 2 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 3 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 4 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 5 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 6 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 7 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 8 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 9 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 10 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 11 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 12 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 13 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 14 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 15 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 16 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 17 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 18 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 19 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 20 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Voidling Processor] 1 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 2 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 3 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 4 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 5 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 6 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 7 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 8 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 9 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 10 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 11 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 12 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 13 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 14 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 15 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 16 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 17 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 18 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 19 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 20 | VoidType.HOIK
+DEBUG:game_debug:[Render Processor] 1 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 2 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 3 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 4 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 5 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 6 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 7 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 8 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 9 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 10 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 11 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 12 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 13 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 14 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 15 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 16 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 17 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 18 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 19 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 20 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Voidling Processor] 1 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 2 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 3 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 4 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 5 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 6 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 7 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 8 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 9 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 10 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 11 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 12 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 13 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 14 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 15 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 16 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 17 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 18 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 19 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 20 | VoidType.HOIK
+DEBUG:game_debug:[Render Processor] 1 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 2 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 3 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 4 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 5 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 6 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 7 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 8 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 9 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 10 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 11 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 12 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 13 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 14 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 15 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 16 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 17 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 18 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 19 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 20 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Voidling Processor] 1 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 2 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 3 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 4 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 5 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 6 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 7 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 8 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 9 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 10 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 11 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 12 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 13 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 14 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 15 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 16 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 17 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 18 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 19 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 20 | VoidType.HOIK
+DEBUG:game_debug:[Render Processor] 1 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 2 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 3 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 4 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 5 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 6 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 7 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 8 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 9 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 10 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 11 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 12 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 13 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 14 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 15 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 16 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 17 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 18 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 19 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 20 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Voidling Processor] 1 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 2 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 3 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 4 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 5 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 6 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 7 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 8 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 9 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 10 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 11 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 12 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 13 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 14 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 15 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 16 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 17 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 18 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 19 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 20 | VoidType.HOIK
+DEBUG:game_debug:[Render Processor] 1 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 2 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 3 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 4 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 5 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 6 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 7 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 8 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 9 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 10 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 11 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 12 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 13 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 14 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 15 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 16 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 17 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 18 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 19 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 20 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Voidling Processor] 1 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 2 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 3 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 4 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 5 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 6 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 7 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 8 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 9 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 10 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 11 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 12 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 13 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 14 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 15 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 16 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 17 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 18 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 19 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 20 | VoidType.HOIK
+DEBUG:game_debug:[Render Processor] 1 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 2 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 3 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 4 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 5 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 6 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 7 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 8 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 9 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 10 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 11 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 12 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 13 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 14 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 15 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 16 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 17 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 18 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 19 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 20 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Voidling Processor] 1 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 2 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 3 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 4 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 5 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 6 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 7 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 8 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 9 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 10 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 11 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 12 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 13 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 14 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 15 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 16 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 17 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 18 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 19 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 20 | VoidType.HOIK
+DEBUG:game_debug:[Render Processor] 1 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 2 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 3 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 4 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 5 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 6 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 7 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 8 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 9 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 10 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 11 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 12 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 13 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 14 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 15 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 16 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 17 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 18 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 19 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 20 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Voidling Processor] 1 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 2 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 3 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 4 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 5 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 6 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 7 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 8 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 9 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 10 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 11 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 12 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 13 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 14 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 15 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 16 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 17 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 18 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 19 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 20 | VoidType.HOIK
+DEBUG:game_debug:[Render Processor] 1 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 2 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 3 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 4 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 5 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 6 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 7 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 8 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 9 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 10 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 11 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 12 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 13 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 14 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 15 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 16 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 17 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 18 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 19 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 20 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Voidling Processor] 1 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 2 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 3 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 4 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 5 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 6 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 7 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 8 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 9 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 10 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 11 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 12 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 13 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 14 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 15 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 16 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 17 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 18 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 19 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 20 | VoidType.HOIK
+DEBUG:game_debug:[Render Processor] 1 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 2 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 3 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 4 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 5 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 6 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 7 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 8 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 9 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 10 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 11 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 12 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 13 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 14 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 15 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 16 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 17 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 18 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 19 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 20 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Voidling Processor] 1 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 2 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 3 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 4 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 5 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 6 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 7 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 8 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 9 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 10 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 11 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 12 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 13 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 14 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 15 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 16 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 17 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 18 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 19 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 20 | VoidType.HOIK
+DEBUG:game_debug:[Render Processor] 1 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 2 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 3 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 4 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 5 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 6 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 7 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 8 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 9 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 10 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 11 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 12 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 13 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 14 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 15 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 16 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 17 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 18 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 19 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 20 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Voidling Processor] 1 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 2 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 3 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 4 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 5 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 6 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 7 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 8 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 9 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 10 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 11 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 12 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 13 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 14 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 15 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 16 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 17 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 18 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 19 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 20 | VoidType.HOIK
+DEBUG:game_debug:[Render Processor] 1 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 2 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 3 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 4 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 5 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 6 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 7 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 8 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 9 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 10 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 11 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 12 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 13 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 14 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 15 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 16 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 17 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 18 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 19 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 20 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Voidling Processor] 1 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 2 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 3 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 4 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 5 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 6 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 7 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 8 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 9 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 10 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 11 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 12 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 13 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 14 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 15 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 16 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 17 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 18 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 19 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 20 | VoidType.HOIK
+DEBUG:game_debug:[Render Processor] 1 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 2 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 3 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 4 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 5 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 6 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 7 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 8 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 9 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 10 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 11 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 12 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 13 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 14 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 15 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 16 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 17 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 18 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 19 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 20 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Voidling Processor] 1 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 2 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 3 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 4 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 5 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 6 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 7 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 8 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 9 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 10 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 11 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 12 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 13 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 14 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 15 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 16 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 17 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 18 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 19 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 20 | VoidType.HOIK
+DEBUG:game_debug:[Render Processor] 1 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 2 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 3 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 4 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 5 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 6 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 7 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 8 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 9 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 10 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 11 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 12 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 13 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 14 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 15 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 16 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 17 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 18 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 19 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 20 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Voidling Processor] 1 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 2 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 3 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 4 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 5 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 6 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 7 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 8 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 9 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 10 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 11 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 12 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 13 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 14 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 15 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 16 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 17 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 18 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 19 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 20 | VoidType.HOIK
+DEBUG:game_debug:[Render Processor] 1 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 2 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 3 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 4 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 5 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 6 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 7 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 8 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 9 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 10 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 11 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 12 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 13 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 14 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 15 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 16 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 17 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 18 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 19 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 20 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Voidling Processor] 1 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 2 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 3 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 4 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 5 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 6 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 7 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 8 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 9 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 10 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 11 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 12 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 13 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 14 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 15 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 16 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 17 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 18 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 19 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 20 | VoidType.HOIK
+DEBUG:game_debug:[Render Processor] 1 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 2 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 3 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 4 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 5 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 6 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 7 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 8 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 9 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 10 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 11 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 12 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 13 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 14 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 15 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 16 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 17 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 18 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 19 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 20 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Voidling Processor] 1 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 2 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 3 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 4 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 5 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 6 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 7 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 8 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 9 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 10 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 11 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 12 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 13 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 14 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 15 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 16 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 17 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 18 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 19 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 20 | VoidType.HOIK
+DEBUG:game_debug:[Render Processor] 1 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 2 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 3 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 4 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 5 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 6 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 7 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 8 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 9 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 10 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 11 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 12 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 13 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 14 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 15 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 16 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 17 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 18 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 19 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 20 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Voidling Processor] 1 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 2 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 3 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 4 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 5 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 6 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 7 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 8 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 9 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 10 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 11 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 12 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 13 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 14 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 15 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 16 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 17 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 18 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 19 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 20 | VoidType.HOIK
+DEBUG:game_debug:[Render Processor] 1 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 2 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 3 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 4 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 5 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 6 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 7 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 8 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 9 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 10 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 11 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 12 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 13 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 14 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 15 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 16 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 17 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 18 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 19 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 20 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Voidling Processor] 1 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 2 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 3 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 4 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 5 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 6 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 7 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 8 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 9 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 10 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 11 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 12 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 13 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 14 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 15 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 16 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 17 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 18 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 19 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 20 | VoidType.HOIK
+DEBUG:game_debug:[Render Processor] 1 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 2 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 3 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 4 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 5 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 6 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 7 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 8 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 9 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 10 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 11 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 12 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 13 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 14 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 15 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 16 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 17 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 18 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 19 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 20 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Voidling Processor] 1 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 2 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 3 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 4 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 5 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 6 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 7 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 8 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 9 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 10 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 11 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 12 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 13 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 14 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 15 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 16 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 17 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 18 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 19 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 20 | VoidType.HOIK
+DEBUG:game_debug:[Render Processor] 1 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 2 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 3 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 4 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 5 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 6 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 7 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 8 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 9 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 10 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 11 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 12 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 13 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 14 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 15 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 16 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 17 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 18 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 19 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 20 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Voidling Processor] 1 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 2 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 3 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 4 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 5 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 6 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 7 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 8 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 9 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 10 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 11 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 12 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 13 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 14 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 15 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 16 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 17 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 18 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 19 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 20 | VoidType.HOIK
+DEBUG:game_debug:[Render Processor] 1 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 2 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 3 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 4 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 5 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 6 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 7 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 8 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 9 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 10 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 11 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 12 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 13 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 14 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 15 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 16 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 17 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 18 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 19 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 20 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Voidling Processor] 1 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 2 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 3 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 4 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 5 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 6 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 7 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 8 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 9 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 10 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 11 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 12 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 13 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 14 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 15 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 16 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 17 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 18 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 20 | VoidType.HOIK
+DEBUG:game_debug:[Render Processor] 1 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 2 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 3 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 4 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 5 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 6 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 7 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 8 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 9 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 10 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 11 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 12 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 13 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 14 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 15 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 16 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 17 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 18 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 20 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Voidling Processor] 1 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 2 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 3 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 4 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 5 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 6 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 7 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 8 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 9 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 10 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 11 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 12 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 13 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 14 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 15 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 16 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 17 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 18 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 20 | VoidType.HOIK
+DEBUG:game_debug:[Render Processor] 1 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 2 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 3 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 4 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 5 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 6 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 7 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 8 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 9 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 10 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 11 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 12 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 13 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 14 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 15 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 16 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 17 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 18 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 20 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Voidling Processor] 1 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 2 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 3 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 4 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 5 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 6 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 7 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 8 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 9 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 10 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 11 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 12 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 13 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 14 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 15 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 16 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 17 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 18 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 20 | VoidType.HOIK
+DEBUG:game_debug:[Render Processor] 1 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 2 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 3 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 4 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 5 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 6 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 7 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 8 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 9 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 10 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 11 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 12 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 13 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 14 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 15 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 16 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 17 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 18 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 20 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Voidling Processor] 1 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 2 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 3 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 4 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 5 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 6 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 7 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 8 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 9 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 10 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 11 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 12 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 13 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 14 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 15 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 16 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 17 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 18 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 20 | VoidType.HOIK
+DEBUG:game_debug:[Render Processor] 1 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 2 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 3 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 4 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 5 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 6 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 7 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 8 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 9 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 10 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 11 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 12 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 13 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 14 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 15 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 16 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 17 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 18 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 20 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Voidling Processor] 1 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 2 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 3 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 4 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 5 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 6 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 7 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 8 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 9 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 10 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 11 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 12 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 13 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 14 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 15 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 16 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 17 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 18 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 20 | VoidType.HOIK
+DEBUG:game_debug:[Render Processor] 1 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 2 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 3 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 4 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 5 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 6 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 7 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 8 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 9 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 10 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 11 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 12 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 13 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 14 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 15 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 16 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 17 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 18 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 20 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Voidling Processor] 1 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 2 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 3 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 4 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 5 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 6 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 7 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 8 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 9 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 10 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 11 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 12 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 13 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 14 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 15 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 16 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 17 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 18 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 20 | VoidType.HOIK
+DEBUG:game_debug:[Render Processor] 1 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 2 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 3 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 4 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 5 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 6 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 7 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 8 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 9 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 10 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 11 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 12 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 13 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 14 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 15 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 16 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 17 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 18 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 20 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Voidling Processor] 1 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 2 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 3 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 4 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 5 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 6 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 7 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 8 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 9 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 10 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 11 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 12 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 13 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 14 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 15 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 16 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 17 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 18 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 20 | VoidType.HOIK
+DEBUG:game_debug:[Render Processor] 1 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 2 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 3 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 4 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 5 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 6 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 7 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 8 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 9 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 10 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 11 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 12 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 13 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 14 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 15 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 16 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 17 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 18 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 20 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Voidling Processor] 1 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 2 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 3 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 4 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 5 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 6 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 7 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 8 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 9 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 10 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 11 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 12 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 13 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 14 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 15 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 16 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 17 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 18 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 20 | VoidType.HOIK
+DEBUG:game_debug:[Render Processor] 1 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 2 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 3 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 4 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 5 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 6 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 7 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 8 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 9 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 10 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 11 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 12 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 13 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 14 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 15 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 16 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 17 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 18 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 20 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Voidling Processor] 1 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 2 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 3 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 4 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 5 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 6 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 7 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 8 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 9 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 10 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 11 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 12 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 13 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 14 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 15 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 16 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 17 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 18 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 20 | VoidType.HOIK
+DEBUG:game_debug:[Render Processor] 1 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 2 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 3 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 4 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 5 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 6 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 7 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 8 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 9 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 10 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 11 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 12 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 13 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 14 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 15 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 16 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 17 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 18 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 20 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Voidling Processor] 1 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 2 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 3 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 4 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 5 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 6 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 7 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 8 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 9 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 10 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 11 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 12 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 13 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 14 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 15 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 16 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 17 | VoidType.BOID
+DEBUG:game_debug:[Voidling Processor] 18 | VoidType.HOIK
+DEBUG:game_debug:[Voidling Processor] 20 | VoidType.HOIK
+DEBUG:game_debug:[Render Processor] 1 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 2 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 3 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 4 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 5 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 6 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 7 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 8 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 9 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 10 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 11 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 12 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 13 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 14 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 15 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 16 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 17 | VoidType.BOID | Forms.RECTANGLE | (255, 0, 0)
+DEBUG:game_debug:[Render Processor] 18 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)
+DEBUG:game_debug:[Render Processor] 20 | VoidType.HOIK | Forms.RECTANGLE | (0, 255, 0)

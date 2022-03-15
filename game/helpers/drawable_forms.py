@@ -8,6 +8,7 @@ class Forms(Enum):
     RECTANGLE = 0
     IMAGE = 1
     TEXT = 2
+    SQUARE = 3
 
 class FormColor(Enum):
     BLUE = (0, 0, 255)
@@ -20,7 +21,6 @@ class Form:
     FormType: Forms
     FormColor: FormColor
 
-
 @dataclass
 class Rectangle(Form):
     width: int
@@ -28,6 +28,11 @@ class Rectangle(Form):
 
     def area(self) -> int:
         return self.width * self.height
+
+@dataclass
+class Square(Form):
+    width: int
+    height: int
 
 @dataclass
 class TextForm(Form):

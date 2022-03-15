@@ -6,6 +6,7 @@ logger = logging.getLogger("game_debug")
 
 from game.components.drawable_component import Drawable
 from game.helpers.drawable_forms import Forms
+from game.components.void_component import VoidType, VoidComponent
 
 class RenderProcessor(esper.Processor):
     def __init__(self, window, clear_color=(0, 0, 0)):
@@ -19,23 +20,23 @@ class RenderProcessor(esper.Processor):
         self.window.fill(self.clear_color)
         # This will iterate over every Entity that has this Component, and blit it:
         for ent, rend in self.world.get_component(Drawable):
-            if rend.form.FormType == Forms.RECTANGLE:
-                item = pygame.Rect(rend.x, rend.y, rend.w, rend.h)
-                col = self.world.component_for_entity(ent, Drawable).form.FormColor
-                pygame.draw.rect(self.window, col, item)
-                logger.debug(f"[Render Processor] {ent} | {col} | {rend}")
-                #pygame.draw.rect(self.window, ent.form.FormColor.value, item)
-            elif rend.form.FormType == Forms.TEXT:
-                text = self.font.render(rend.form.text, True, rend.form.FormColor)
+            if rend.form.FormType == Forms.TEXT:
+                text = self.font.render(rend.form.text, True, rend.form.FormColor.value)
                 self.window.blit(text, (rend.x, rend.y))
-
             else:
-                return
-        
-        #TODO: Dirty text render:
-        
+                if self.world.component_for_entity(ent, VoidComponent).void_type == VoidType.BOID:
+                    item = pygame.Rect(rend.x, rend.y, rend.w, rend.h)
+                    col = self.world.component_for_entity(ent, Drawable).form.FormColor.value
+                    col = (255,0, 0)
+                    pygame.draw.rect(self.window, col, item)
+                    logger.debug(f"[Render Processor] {ent} | {self.world.component_for_entity(ent, VoidComponent).void_type} | {self.world.component_for_entity(ent, Drawable).form.FormType} | {col}")
+                if self.world.component_for_entity(ent, VoidComponent).void_type == VoidType.HOIK:
+                    item = pygame.Rect(rend.x, rend.y, rend.w, rend.h)
+                    col = self.world.component_for_entity(ent, Drawable).form.FormColor.value
+                    col = (0, 255, 0)
+                    pygame.draw.rect(self.window, col, item)
+                    logger.debug(f"[Render Processor] {ent} | {self.world.component_for_entity(ent, VoidComponent).void_type} | {self.world.component_for_entity(ent, Drawable).form.FormType} | {col}")
 
-        
 
         # Flip the framebuffers
         pygame.display.flip()

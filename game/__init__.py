@@ -34,33 +34,29 @@ class Game:
         self.hoiks = []
 
         for i in range(0, 10):
-            print(f"Made enemy: {i}")
             enemy = self.world.create_entity()
-            form = Rectangle
-            form.width = 10
-            form.height = 10
-            form.FormType = Forms.RECTANGLE
-            form.FormColor = (255, 0, 0)
+            _form = Rectangle
+            _form.width = 10
+            _form.height = 10
+            _form.FormType = Forms.SQUARE
+            _form.FormColor = FormColor.BLUE
             
             pos_x = randint(0, RESOLUTION[0])
             pos_y = randint(0, RESOLUTION[1])
-            self.world.add_component(enemy, Drawable(form=form, posx=pos_x, posy=pos_y)) 
+            self.world.add_component(enemy, Drawable(form=_form, posx=pos_x, posy=pos_y)) 
             self.world.add_component(enemy, Velocity(0, 0))   
             self.world.add_component(enemy, VoidComponent(void_type=VoidType.BOID, ttl=randint(1, 1000), x=pos_x, y=pos_y))
             self.world.add_component(enemy, ClockComponent(pygame.time.Clock()))
             self.boids.append(enemy)
-            logger.debug(f"[INIT] Enemy: {i} | {enemy} | {form.FormColor}")
-            #TODO: Add TTL to each voidling
-            
-        for y in range(0, 10):
-            
+            logger.debug(f"[INIT] Enemy: {enemy} | {i} | {_form.FormType}")
             hoik = self.world.create_entity()
             form = Rectangle
             form.width = 5
             form.height = 5
             form.FormType = Forms.RECTANGLE
-            form.FormColor = (0, 255,0)
-            
+            form.FormColor = FormColor.GREEN
+            print(hoik)
+            print(enemy)
             pos_x = randint(0, RESOLUTION[0])
             pos_y = randint(0, RESOLUTION[1])
             self.world.add_component(hoik, Drawable(form=form, posx=pos_x, posy=pos_y)) 
@@ -68,13 +64,17 @@ class Game:
             self.world.add_component(hoik, VoidComponent(void_type=VoidType.HOIK, ttl=randint(1, 1000), x=pos_x, y=pos_y))
             self.world.add_component(hoik, ClockComponent(pygame.time.Clock()))
             self.hoiks.append(hoik)
-            logger.debug(f"[INIT] Friend: {y} | {hoik} | {form.FormColor}")
+            logger.debug(f"[INIT] Friend: {hoik} | {i} | {form.FormType}")
             #TODO: Add TTL to each voidling
+            
+        #for y in range(0, 10):
+        #    pass
+        #    #TODO: Add TTL to each voidling
         
         self.text_display = self.world.create_entity()
         textform = TextForm
         textform.text = ""
-        textform.FormColor = (255, 255, 255)
+        textform.FormColor = FormColor.WHITE
         textform.FormType = Forms.TEXT
         self.world.add_component(self.text_display, Drawable(form=textform, posx=0, posy=20))
 

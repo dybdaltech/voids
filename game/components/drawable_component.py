@@ -13,6 +13,10 @@ class Drawable:
         if form.FormType == Forms.RECTANGLE:
             self.h = form.height
             self.w = form.width
+
+        if form.FormType == Forms.SQUARE:
+            self.h = form.height
+            self.w = form.width
         if form.FormType == Forms.TEXT:
             pass
 
