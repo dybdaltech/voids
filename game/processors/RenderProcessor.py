@@ -1,5 +1,8 @@
 import esper
 import pygame
+import logging
+
+logger = logging.getLogger("game_debug")
 
 from game.components.drawable_component import Drawable
 from game.helpers.drawable_forms import Forms
@@ -18,9 +21,12 @@ class RenderProcessor(esper.Processor):
         for ent, rend in self.world.get_component(Drawable):
             if rend.form.FormType == Forms.RECTANGLE:
                 item = pygame.Rect(rend.x, rend.y, rend.w, rend.h)
-                pygame.draw.rect(self.window, rend.form.FormColor.value, item)
+                col = self.world.component_for_entity(ent, Drawable).form.FormColor
+                pygame.draw.rect(self.window, col, item)
+                logger.debug(f"[Render Processor] {ent} | {col} | {rend}")
+                #pygame.draw.rect(self.window, ent.form.FormColor.value, item)
             elif rend.form.FormType == Forms.TEXT:
-                text = self.font.render(rend.form.text, True, rend.form.FormColor.value)
+                text = self.font.render(rend.form.text, True, rend.form.FormColor)
                 self.window.blit(text, (rend.x, rend.y))
 
             else:
