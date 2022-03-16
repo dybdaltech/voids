@@ -8,4 +8,4 @@ class ClockProcessor(esper.Processor):
 
     def process(self):
         for ent, clock in self.world.get_component(ClockComponent):
-            clock.clock.tick(60)
+            clock.clock.tick(3)

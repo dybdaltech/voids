@@ -25,11 +25,7 @@ class VoidProcessor(esper.Processor):
             #TODO: Do the AI functions
             logger.debug(f"[Voidling Processor] {ent} | {self.world.component_for_entity(ent, VoidComponent).void_type}")
             if self.world.has_component(ent, Velocity):
-                #Movement here
                 pass
-                #self.world.component_for_entity(ent, Velocity).x += randint(-1, 1)
-                #self.world.component_for_entity(ent, Velocity).y += randint(-1, 1)
-                #self.move_to(self.world.component_for_entity(ent, Velocity))
             if self.world.has_component(ent, ClockComponent):
                 a = self.world.component_for_entity(ent, ClockComponent).clock.get_time()
                 if void.ttl == randint(1, 1000):
