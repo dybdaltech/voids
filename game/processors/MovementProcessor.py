@@ -37,10 +37,10 @@ class MovementProcessor(esper.Processor):
                 target = other_pos.pos
             else:
                 continue
-        if target[0] <= 1 or target[0] >= 500:
-            target[0] = 0
-        elif target[1] <= 1 or target[1] >= 500:
-            target[1] = 0
+        if target[0] <= 1 or target[0] >= self.maxx:
+            target[0] = max(self.minx, entity.pos[0])
+        elif target[1] <= 1 or target[1] >= self.maxy:
+            target[1] = max(self.miny, entity.pos[1])
         
         print(target)
         entity.direction = target
