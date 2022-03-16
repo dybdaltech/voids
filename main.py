@@ -5,8 +5,8 @@ logging.basicConfig(filename="game_debug.log", level=logging.DEBUG)
 logger = logging.getLogger("game_debug")
 t_out = logging.StreamHandler()
 
-logger.setLevel(logging.DEBUG)
-t_out.setLevel(logging.DEBUG)
+logger.setLevel(logging.INFO)
+t_out.setLevel(logging.INFO)
 
 logger.addHandler(t_out)
 logger.info(f"[MAIN] Started logger")

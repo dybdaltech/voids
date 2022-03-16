@@ -17,14 +17,19 @@ class VoidProcessor(esper.Processor):
         self.timer_event = pygame.USEREVENT+1
         pygame.time.set_timer(self.timer_event, 1000)
 
+    #def move_to(self, entity):
+    #    entity.pos += entity.direction * entity.velocity    
+
     def process(self):
         for ent, void in self.world.get_component(VoidComponent):
             #TODO: Do the AI functions
             logger.debug(f"[Voidling Processor] {ent} | {self.world.component_for_entity(ent, VoidComponent).void_type}")
             if self.world.has_component(ent, Velocity):
-                self.world.component_for_entity(ent, Velocity).x += randint(-1, 1)
-                self.world.component_for_entity(ent, Velocity).y += randint(-1, 1)
-            
+                #Movement here
+                pass
+                #self.world.component_for_entity(ent, Velocity).x += randint(-1, 1)
+                #self.world.component_for_entity(ent, Velocity).y += randint(-1, 1)
+                #self.move_to(self.world.component_for_entity(ent, Velocity))
             if self.world.has_component(ent, ClockComponent):
                 a = self.world.component_for_entity(ent, ClockComponent).clock.get_time()
                 if void.ttl == randint(1, 1000):
